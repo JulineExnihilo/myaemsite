@@ -1,0 +1,9 @@
+    {
+      "plugins": [
+        {
+          "id": "my-library",
+          "title": "My Library",
+          "url": "/tools/sidekick/library.html"
+        }
+      ]
+    }
