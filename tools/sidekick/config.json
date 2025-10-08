@@ -1,9 +1,12 @@
+{
+  "project": "My AEM site",
+  "plugins": [
     {
-      "plugins": [
-        {
-          "id": "my-library",
-          "title": "My Library",
-          "url": "/tools/sidekick/library.html"
-        }
-      ]
+      "id": "library",
+      "title": "My Library",
+      "environments": ["edit"],
+      "url": "/tools/sidekick/library.html",
+      "includePaths": ["**.docx**"]
     }
+  ]
+}
